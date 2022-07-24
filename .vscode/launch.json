@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Final",
+            "request": "launch",
+            "mainClass": "Final",
+            "projectName": "practices_49d40397"
+        },
+        {
+            "type": "java",
+            "name": "Launch Static",
+            "request": "launch",
+            "mainClass": "Static",
+            "projectName": "practices_49d40397"
+        },
+        {
+            "type": "java",
+            "name": "Launch Abstraction",
+            "request": "launch",
+            "mainClass": "Abstraction",
+            "projectName": "practices_49d40397"
+        },
+        {
+            "type": "java",
+            "name": "Launch Object_and_Class",
+            "request": "launch",
+            "mainClass": "Object_and_Class",
+            "projectName": "practices_49d40397"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exceptions",
+            "request": "launch",
+            "mainClass": "Exceptions",
+            "projectName": "practices_49d40397"
+        },
+        {
+            "type": "java",
+            "name": "Launch primeNumber",
+            "request": "launch",
+            "mainClass": "primeNumber",
+            "projectName": "practices_49d40397"
+        },
+        {
+            "type": "java",
+            "name": "Launch function",
+            "request": "launch",
+            "mainClass": "function",
+            "projectName": "practices_49d40397"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch condition",
+            "request": "launch",
+            "mainClass": "condition",
+            "projectName": "practices_49d40397"
+        }
+    ]
+}

@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  --font: "open Sans";
+}
+
+.navbar {
+  display: flex;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  background: rgb(55, 255, 145);
+  width: 100vw;
+  z-index: 10;
+}
+#click {
+  display: none;
+}
+.logo svg {
+  position: relative;
+  height: 2.5rem;
+  top: 19px;
+  left: 15px;
+}
+.navbar a {
+  position: relative;
+  text-decoration: none;
+  color: aliceblue;
+  font-family: var(--font);
+  top: 12px;
+  left: 6rem;
+  padding-right: 4rem;
+}
+.navbar .menu-btn {
+  display: none;
+  float: right;
+}
+
+/* home css */
+.home {
+  display: flex;
+  position: relative;
+  top: 36px;
+  left: -8px;
+}
+
+.homeright {
+  font-family: var(--font);
+  padding: 18px;
+  width: 37rem;
+}
+.homeright h3 {
+  font-size: 4rem;
+}
+/* responsive css */
+
+@media (max-width: 940px) {
+  .navbar {
+    flex-direction: column;
+    height: 5.1vh;
+    width: 100vw;
+  }
+  .navbar a {
+    left: -100%;
+    top: -23px;
+    right: 0px;
+    padding: 1rem;
+    margin: 0%;
+    font-size: 0.8rem;
+    text-align: center;
+    background: rgba(0, 205, 92, 0.518);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-bottom: none;
+    border-top: none;
+    transition: all 0.3s ease;
+  }
+  .navbar .menu-btn {
+    display: block;
+    position: relative;
+    color: aliceblue;
+    padding-right: 20px;
+    align-self: flex-end;
+
+    font-size: large;
+    top: -29px;
+  }
+  #click:checked ~ a {
+    left: 0px;
+  }
+
+  .navbar .logo {
+    text-align: center;
+    border-bottom: none;
+    border-top: none;
+  }
+  .logo svg {
+    left: 0px;
+  }
+  .home {
+    flex-direction: column;
+    left: -8px;
+  }
+  .homeleft {
+    width: 100vw;
+  }
+  .homeright {
+    width: 22rem;
+  }
+
+  .homeleft img {
+    width: 99.95vw;
+    height: 18rem;
+  }
+  .homeright h3 {
+    font-size: 2rem;
+  }
+  .homeright p {
+    font-size: 0.9rem;
+  }
+}
